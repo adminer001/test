@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisChart.Bll", "AnalysisChart.Bll\AnalysisChart.Bll.csproj", "{E49B8A9A-BE03-47FD-9A33-B12EB8DCFDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisChart.Dal", "AnalysisChart.Dal\AnalysisChart.Dal.csproj", "{EFF59CC9-0673-4A74-9B02-343333EF8DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisChart.IDal", "AnalysisChart.IDal\AnalysisChart.IDal.csproj", "{70CB10C6-5C90-4F0D-9DA6-4FAE66616F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisChart.Model", "AnalysisChart.Model\AnalysisChart.Model.csproj", "{0882697F-D133-4D89-B929-E421BC61EA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisChart.Web", "AnalysisChart.Web\AnalysisChart.Web.csproj", "{3D359C89-840E-4618-AAEC-3504045B96E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisChart.DalFactory", "AnalysisChart.DalFactory\AnalysisChart.DalFactory.csproj", "{9F2A019E-0B07-4EB8-8EEA-636FFA3A86D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70CB10C6-5C90-4F0D-9DA6-4FAE66616F01} = {70CB10C6-5C90-4F0D-9DA6-4FAE66616F01}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E49B8A9A-BE03-47FD-9A33-B12EB8DCFDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49B8A9A-BE03-47FD-9A33-B12EB8DCFDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49B8A9A-BE03-47FD-9A33-B12EB8DCFDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49B8A9A-BE03-47FD-9A33-B12EB8DCFDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF59CC9-0673-4A74-9B02-343333EF8DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF59CC9-0673-4A74-9B02-343333EF8DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF59CC9-0673-4A74-9B02-343333EF8DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF59CC9-0673-4A74-9B02-343333EF8DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CB10C6-5C90-4F0D-9DA6-4FAE66616F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CB10C6-5C90-4F0D-9DA6-4FAE66616F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CB10C6-5C90-4F0D-9DA6-4FAE66616F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CB10C6-5C90-4F0D-9DA6-4FAE66616F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0882697F-D133-4D89-B929-E421BC61EA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0882697F-D133-4D89-B929-E421BC61EA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0882697F-D133-4D89-B929-E421BC61EA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0882697F-D133-4D89-B929-E421BC61EA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D359C89-840E-4618-AAEC-3504045B96E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D359C89-840E-4618-AAEC-3504045B96E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D359C89-840E-4618-AAEC-3504045B96E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D359C89-840E-4618-AAEC-3504045B96E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2A019E-0B07-4EB8-8EEA-636FFA3A86D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2A019E-0B07-4EB8-8EEA-636FFA3A86D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2A019E-0B07-4EB8-8EEA-636FFA3A86D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2A019E-0B07-4EB8-8EEA-636FFA3A86D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
